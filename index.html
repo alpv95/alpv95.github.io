@@ -205,30 +205,33 @@
               </script>
             </td>
             <td valign="top" width="75%">
-              <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab2719">
+              <!--<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab2719">
                 <papertitle>Deep Learning for X-ray Polarimetry</papertitle>
-              </a>
+              </a> -->
+              <papertitle>Deep Learning for X-ray Polarimetry (in prep.)</papertitle>
               <br>
               <strong>A.L.Peirson</strong>, 
-              <a href="https://kipac.stanford.edu/people/roger-romani">Herman Marshall</a>
+              <a href="https://space.mit.edu/people/marshall-herman-l">Herman Marshall</a>
               <a href="https://kipac.stanford.edu/people/roger-romani">R.W.Romani</a>
-              <a href="https://kipac.stanford.edu/people/roger-romani">Jack Steiner</a>
-              <a href="https://kipac.stanford.edu/people/roger-romani">Luca Baldini</a>
+              <a href="http://jfsteiner.com/">Jack Steiner</a>
+              <a href="http://osiris.df.unipi.it/~baldini/index.html">Luca Baldini</a>
               <br>
-              <em>Nuclear Instruments and Methods in Physics Research</em>, 2020
+              <em>Nuclear Instruments and Methods in Physics Research (in prep.)</em>, 2020
               <br>
               <p></p>
-              <p>A study in the detectability of X-ray polarization in blazars for IXPE.</p>
-              <p>Using the models developed in the adjacent relativistic jet papers and optical polarization observations 
-                by <a href="http://robopol.org/">RoboPol</a>, we are able to make predictions of the average expected X-ray polarization fraction. 
-                This work will help the IXPE team choose appropriate first year observing targets.</p>
+              <p>Using Bayesian deep learning to improve <a href="https://ixpe.msfc.nasa.gov/">IXPE's</a> sensitivity.  </p>
+              <p>In order to measure polarization using a GPD, a distribution of photoelectron angles must be extracted 
+                from noisy images of their individual tracks on a hexagonal grid. We use a convolutional neural network 
+                architecture to predict the initial photoelectron angle and its uncertainty for each track image, as 
+                well as the absorption point and energy. By combining predictions from an ensemble of networks in a 
+                weighted maximum likelihood analysis we estimate the polarization fraction and EVPA of the X-ray source. </p>
             </td>
           </tr>
 
           <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
             <td width="25%">
               <div class="one">
-                <div class="two" id='portrait_image'><img src='images/multi_SED.png' width="180" height="180"></div>
+                <div class="two" id='SED_image'><img src='images/multi_SED.png' width="180" height="180"></div>
                 <img src='images/SED+Pol.png' width="180" height="180">
               </div>
               <script type="text/javascript">
@@ -243,7 +246,7 @@
               </script>
             </td>
             <td valign="top" width="75%">
-              <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab2719">
+              <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab46b1">
                 <papertitle>The Polarization Behavior of Relativistic Synchrotron Self-Compton Jets</papertitle>
               </a>
               <br>
@@ -253,10 +256,12 @@
               <em>The Astrophysical Journal</em>, 2019
               <br>
               <p></p>
-              <p>A study in the detectability of X-ray polarization in blazars for IXPE.</p>
-              <p>Using the models developed in the adjacent relativistic jet papers and optical polarization observations 
-                by <a href="http://robopol.org/">RoboPol</a>, we are able to make predictions of the average expected X-ray polarization fraction. 
-                This work will help the IXPE team choose appropriate first year observing targets.</p>
+              <p>Exploring the expected synchrotron self-Compton polarization from blazar jets. A continuation of our multizone jet model.</p>
+              <p>For low-synchrotron peaked blazars, the X-ray emission will be dominated by synchrotron self-Compton. Understanding
+                what polarization levels <a href="https://ixpe.msfc.nasa.gov/">IXPE</a> is likely to see in this case is important
+                for distinguishing between hadronic and leptonic blazar emission models. We find that our multizone model recovers 
+                simple predictions for SSC polarization, but describes new dependencies on jet viewing geometry. Importantly we find that a
+                rise in synchrotron polarization fraction at high energies is guaranteed by basic relativity considerations. </p>
             </td>
           </tr>
 
@@ -264,7 +269,7 @@
             <td width="25%">
               <div class="one">
                 <div class="two" id='portrait_image'><img src='images/Ioannis_blazars.png' width="180" height="180"></div>
-                <img src='images/Ioannis_blazars.png' width="180" height="180">
+                <img src='images/Exposure_time.png' width="180" height="180">
               </div>
               <script type="text/javascript">
                 function portrait_start() {
