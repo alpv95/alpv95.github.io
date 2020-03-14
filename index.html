@@ -190,16 +190,16 @@
           <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
             <td width="25%">
               <div class="one">
-                <div class="two" id='portrait_image'><img src='images/Tracks.png' width="180" height="180"></div>
+                <div class="two" id='track_image'><img src='images/Tracks.png' width="180" height="180"></div>
                 <img src='images/Tracks.png' width="180" height="180">
               </div>
               <script type="text/javascript">
                 function portrait_start() {
-                  document.getElementById('portrait_image').style.opacity = "1";
+                  document.getElementById('track_image').style.opacity = "1";
                 }
 
                 function portrait_stop() {
-                  document.getElementById('portrait_image').style.opacity = "0";
+                  document.getElementById('track_image').style.opacity = "0";
                 }
                 portrait_stop()
               </script>
@@ -236,11 +236,11 @@
               </div>
               <script type="text/javascript">
                 function portrait_start() {
-                  document.getElementById('portrait_image').style.opacity = "1";
+                  document.getElementById('SED_image').style.opacity = "1";
                 }
 
                 function portrait_stop() {
-                  document.getElementById('portrait_image').style.opacity = "0";
+                  document.getElementById('SED_image').style.opacity = "0";
                 }
                 portrait_stop()
               </script>
@@ -268,16 +268,16 @@
           <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
             <td width="25%">
               <div class="one">
-                <div class="two" id='portrait_image'><img src='images/Ioannis_blazars.png' width="180" height="180"></div>
+                <div class="two" id='blazar_image'><img src='images/Ioannis_blazars.png' width="180" height="180"></div>
                 <img src='images/Exposure_time.png' width="180" height="180">
               </div>
               <script type="text/javascript">
                 function portrait_start() {
-                  document.getElementById('portrait_image').style.opacity = "1";
+                  document.getElementById('blazar_image').style.opacity = "1";
                 }
 
                 function portrait_stop() {
-                  document.getElementById('portrait_image').style.opacity = "0";
+                  document.getElementById('blazar_image').style.opacity = "0";
                 }
                 portrait_stop()
               </script>
@@ -305,16 +305,16 @@
           <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
             <td width="25%">
               <div class="one">
-                <div class="two" id='SED_image'><img src='images/XPP.png' width="180" height="160"></div>
+                <div class="two" id='XPP_image'><img src='images/XPP.png' width="180" height="160"></div>
                 <img src='images/XPP.png' width="180" height="160">
               </div>
               <script type="text/javascript">
                 function portrait_start() {
-                  document.getElementById('portrait_image').style.opacity = "1";
+                  document.getElementById('XPP_image').style.opacity = "1";
                 }
 
                 function portrait_stop() {
-                  document.getElementById('portrait_image').style.opacity = "0";
+                  document.getElementById('XPP_image').style.opacity = "0";
                 }
                 portrait_stop()
               </script>
@@ -459,6 +459,36 @@
           <tr onmouseout="deepburst_stop()" onmouseover="deepburst_start()">
             <td width="25%">
               <div class="one">
+                <div class="two" id='burst_image'><img src='images/dark_galaxy.gif' width="180" height="180"></div>
+                <img src='images/white_g.gif' width="180" height="180">
+              </div>
+              <script type="text/javascript">
+                function deepburst_start() {
+                  document.getElementById('burst_image').style.opacity = "1";
+                }
+
+                function deepburst_stop() {
+                  document.getElementById('burst_image').style.opacity = "0";
+                }
+                deepburst_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://cds.cern.ch/record/2289713?ln=en">
+                <papertitle>Planet Plotter</papertitle>
+              </a>
+              <br> 
+              <br>
+              <em>8th International Particle Accelerator Conference</em>, 2017 &nbsp ,<!--<font color=#FF8080><strong>(Spotlight)</strong></font>-->
+              <br>
+              <p></p>
+              <p>Characterising the transverse phase space of the CTF3 beam before and after beam recombination with the Delay Loop.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="deepburst_stop()" onmouseover="deepburst_start()">
+            <td width="25%">
+              <div class="one">
                 <div class="two" id='deepburst_image'><img src='images/curve2d.png' width="180" height="180"></div>
                 <img src='images/curve2d.png'  width="180" height="180">
               </div>
@@ -477,42 +507,13 @@
               <a href="https://curve2d.netlify.com">
                 <papertitle>Curve2d</papertitle>
               </a>
+              <br>
               <a href="https://github.com/freedmand/curve2d">code</a>
               <br>
               <p></p>
               <p>We made a lightweight implementation in javascript of one of our favourite games: <em>Achtung die Kurve</em>. I have to admit, 
                 this one was mainly D (I still smash him at the game though); one of my main contributions was including a poisson distribution for generating threadable gaps
               in the curves. We have also made a 3d version in Unity: <em>Achtung 3die Kurve</em>, not available online yet. </p>
-            </td>
-          </tr>
-
-          <tr onmouseout="deepburst_stop()" onmouseover="deepburst_start()">
-            <td width="25%">
-              <div class="one">
-                <div class="two" id='deepburst_image'><img src='images/dark_galaxy.gif' width="180" height="180"></div>
-                <img src='images/white_g.gif' width="180" height="180">
-              </div>
-              <script type="text/javascript">
-                function deepburst_start() {
-                  document.getElementById('deepburst_image').style.opacity = "1";
-                }
-
-                function deepburst_stop() {
-                  document.getElementById('deepburst_image').style.opacity = "0";
-                }
-                deepburst_stop()
-              </script>
-            </td>
-            <td valign="top" width="75%">
-              <a href="https://cds.cern.ch/record/2289713?ln=en">
-                <papertitle>Planet Plotter</papertitle>
-              </a>
-              <br> 
-              <br>
-              <em>8th International Particle Accelerator Conference</em>, 2017 &nbsp ,<!--<font color=#FF8080><strong>(Spotlight)</strong></font>-->
-              <br>
-              <p></p>
-              <p>Characterising the transverse phase space of the CTF3 beam before and after beam recombination with the Delay Loop.</p>
             </td>
           </tr>
         </table>
