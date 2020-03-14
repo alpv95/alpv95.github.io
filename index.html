@@ -522,57 +522,43 @@
           </tr>
         </table>
 
-        <!--
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
-            <td>
-              <heading>Course Projects</heading>
-            </td>
-          </tr>
-        </table>
-        <table width="100%" align="center" border="0" cellpadding="20">
-          <tr>
-            <td width="25%"><img src="images/prl.jpg" alt="prl" width="160" height="160"></td>
-            <td width="75%" valign="top">
-              <p>
-                <a href="https://drive.google.com/file/d/13rVuJpcytRdLYCnKpq46g7B7IzSrPQ2P/view?usp=sharing">
-                  <papertitle>Parallelizing Reinforcement Learning</papertitle>
-                </a>
-                <br>
-                <strong>Jonathan T. Barron</strong>, <a href="http://www.eecs.berkeley.edu/~dsg/">Dave Golland</a>, <a href="http://www.cs.berkeley.edu/~nickjhay/">Nicholas J. Hay</a>, 2009
-                <p>
-                  <br> Markov Decision Problems which lie in a low-dimensional latent space can be decomposed, allowing modified RL algorithms to run orders of magnitude faster in parallel.
-                </p>
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td>
+            <td width="100%" valign="middle">
               <heading>Teaching</heading>
             </td>
           </tr>
         </table>
-        <table width="100%" align="center" border="0" cellpadding="20">
-          <tr>
-            <td width="25%"><img src="images/pacman.jpg" alt="pacman" width="160" height="160"></td>
-            <td width="75%" valign="center">
-              <p>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/fa10/announcements.html">
-                  <papertitle>CS188 - Fall 2010 (GSI)</papertitle>
-                </a>
-                <br>
-                <br>
-                <a href="http://inst.eecs.berkeley.edu/~cs188/sp11/announcements.html">
-                  <papertitle>CS188 - Spring 2011 (GSI)</papertitle>
-                </a>
-                <br>
-              </p>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+
+          <tr onmouseout="burst_stop()" onmouseover="burst_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='burst_image'><img src='images/stanford-logo.png' width="180" height="185"></div>
+                <img src='images/stanford-logo.png' width="180" height="185">
+              </div>
+              <script type="text/javascript">
+                function burst_start() {
+                  document.getElementById('burst_image').style.opacity = "1";
+                }
+
+                function burst_stop() {
+                  document.getElementById('burst_image').style.opacity = "0";
+                }
+                burst_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://explorecourses.stanford.edu/search?view=catalog&filter-coursestatus-Active=on&q=PHYSICS%20100:%20Introduction%20to%20Observational%20Astrophysics&academicYear=20172018">
+                Physics 100: Introduction to Observational Astrophysics</a>
+              <br> 
             </td>
           </tr>
+
+          
         </table>
-         -->
+
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td>
