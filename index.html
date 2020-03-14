@@ -456,21 +456,21 @@
         </table>
         
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr onmouseout="deepburst_stop()" onmouseover="deepburst_start()">
+          <tr onmouseout="burst_stop()" onmouseover="burst_start()">
             <td width="25%">
               <div class="one">
                 <div class="two" id='burst_image'><img src='images/dark_galaxy.gif' width="180" height="180"></div>
                 <img src='images/white_g.gif' width="180" height="180">
               </div>
               <script type="text/javascript">
-                function deepburst_start() {
+                function burst_start() {
                   document.getElementById('burst_image').style.opacity = "1";
                 }
 
-                function deepburst_stop() {
+                function burst_stop() {
                   document.getElementById('burst_image').style.opacity = "0";
                 }
-                deepburst_stop()
+                burst_stop()
               </script>
             </td>
             <td valign="top" width="75%">
