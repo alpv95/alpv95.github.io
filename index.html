@@ -209,23 +209,61 @@
               <!--<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab2719">
                 <papertitle>Deep Learning for X-ray Polarimetry</papertitle>
               </a> -->
-              <papertitle>Deep Learning for X-ray Polarimetry (in prep.)</papertitle>
+              <papertitle><a href="data/Deep_Ensembles_for_Imaging_X_ray_Polarimetry.pdf">Deep Ensemble Analysis for X-ray Polarimetry (submitted)</a></papertitle>
               <br>
               <strong>A.L.Peirson</strong>, 
-              <a href="https://space.mit.edu/people/marshall-herman-l">H.L.Marshall</a>,
               <a href="https://kipac.stanford.edu/people/roger-romani">R.W.Romani</a>,
+              <a href="https://space.mit.edu/people/marshall-herman-l">H.L.Marshall</a>,
               <a href="http://jfsteiner.com/">J.F.Steiner</a>,
               <a href="http://osiris.df.unipi.it/~baldini/index.html">L.Baldini</a>
               <br>
-              <em>Nuclear Instruments and Methods in Physics Research </em>, 2020
+              <em>Nuclear Instruments and Methods in Physics Research A </em>, 2020
               <br>
               <p></p>
-              <p>Using Bayesian deep learning to improve <a href="https://ixpe.msfc.nasa.gov/">IXPE's</a> sensitivity.  </p>
+              <p>Using Deep ensembles to improve <a href="https://ixpe.msfc.nasa.gov/">IXPE's</a> sensitivity.  </p>
               <p>In order to measure polarization using a GPD, a distribution of photoelectron angles must be extracted 
                 from noisy images of their individual tracks on a hexagonal grid. We use a convolutional neural network 
                 architecture to predict the initial photoelectron angle and its uncertainty for each track image, as 
                 well as the absorption point and energy. By combining predictions from an ensemble of networks in a 
                 weighted maximum likelihood analysis we estimate the polarization fraction and EVPA of the X-ray source. </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='bootstrap_image'><img src='images/bootstrap_cropped.png' width="180" height="180"></div>
+                <img src='images/bootstrap_cropped.png' width="180" height="180">
+              </div>
+              <script type="text/javascript">
+                function portrait_start() {
+                  document.getElementById('track_image').style.opacity = "1";
+                }
+
+                function portrait_stop() {
+                  document.getElementById('track_image').style.opacity = "0";
+                }
+                portrait_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <!--<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab2719">
+                <papertitle>Deep Learning for X-ray Polarimetry</papertitle>
+              </a> -->
+              <papertitle><a href="data/Parametric_density_estimation_with_uncertainty_using_deep_ensembles (2).pdf">Parametric Density Estimation with Uncertainty using Deep Ensembles (submitted)</a></papertitle>
+              <br>
+              <strong>A.L.Peirson</strong>, 
+              Taylor Howell,
+              Marius Tirlea
+              <br>
+              <em>Neurips (submitted)</em>, 2020
+              <br>
+              <p></p>
+              <p>Using Deep ensembles for general parametric density estimation.</p>
+              <p>We propose an efficient two-step, general-purpose approach for parametric density estimation using deep ensembles. 
+                Feature predictions and their uncertainties are returned by a deep ensemble and then combined in an importance 
+                weighted maximum likelihood estimation to recover parameters representing a known 
+                density along with their respective errors. </p>
             </td>
           </tr>
 
