@@ -210,6 +210,115 @@
           <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
             <td width="25%">
               <div class="one">
+                <div class="two" id='red_track_image'><img src='images/Track.png' width="180" height="180"></div>
+                <img src='images/Ehist.png' width="180" height="180">
+              </div>
+              <script type="text/javascript">
+                function portrait_start() {
+                  document.getElementById('red_track_image').style.opacity = "1";
+                }
+
+                function portrait_stop() {
+                  document.getElementById('red_track_image').style.opacity = "0";
+                }
+                portrait_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://arxiv.org/abs/2107.08289">
+                <papertitle>Towards Optimal Signal Extraction for Imaging X-ray Polarimetry</papertitle>
+              </a>
+              <br>
+              <strong>A.L.Peirson</strong>, 
+              <a href="https://kipac.stanford.edu/people/roger-romani">R.W.Romani</a>
+              <br>
+              <em>The Astrophysical Journal</em>, 2021
+              <br>
+              <p></p>
+              <p>Again setting the state of the art signal recovery in X-ray Polarimetry.</p>
+              <p>We describe an optimal signal extraction process for imaging X-ray polarimetry using an ensemble of deep neural networks. 
+                The initial photo-electron angle, used to recover the polarization, has errors following a von Mises distribution. 
+                This is complicated by events converting outside of the fiducial gas volume, whose tracks have little polarization sensitivity. 
+                We train a deep ensemble of convolutional neural networks to select against these events and to measure event angles and errors for the desired gas conversion tracks. 
+                We show how the expected modulation amplitude from each event gives an optimal weighting to maximize signal-to-noise ratio of the recovered polarization. 
+                Applying this weighted maximum likelihood event analysis yields sensitivity (MDP99) improvements of ~10% over earlier heuristic weighting schemes and 
+                mitigates the need to adjust said weighting for the source spectrum. 
+                We apply our new technique to a selection of astrophysical spectra, including complex extreme examples, and compare the polarization recovery to the current state of the art. </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='core_image'><img src='images/Core_zoom.png' width="180" height="180"></div>
+                <img src='images/Core_out.png' width="180" height="180">
+              </div>
+              <script type="text/javascript">
+                function portrait_start() {
+                  document.getElementById('core_image').style.opacity = "1";
+                }
+
+                function portrait_stop() {
+                  document.getElementById('core_image').style.opacity = "0";
+                }
+                portrait_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <a href="https://iopscience.iop.org/article/10.3847/1538-4357/abd08c/meta">
+                <papertitle>The Relativistic Jet Orientation and Host Galaxy of the Peculiar Blazar PKS 1413+135</papertitle>
+              </a>
+              <br>
+              A. C. S. Readhead, 
+              V. Ravi, 
+              I. Liodakis, 
+              M. L. Lister, 
+              V. Singh, 
+              M. F. Aller, 
+              R. D. Blandford, 
+              I. W. A. Browne, 
+              V. Gorjian, 
+              K. J. B. Grainge, 
+              M. A. Gurwell, 
+              M. W. Hodges, 
+              T. Hovatta, 
+              S. Kiehlmann, 
+              A. Lähteenmäki, 
+              T. McAloone, 
+              W. Max-Moerbeck, 
+              V. Pavlidou, 
+              T. J. Pearson, 
+              <strong>A. L. Peirson</strong>,  
+              E. S. Perlman, 
+              R. A. Reeves, 
+              B. T. Soifer, 
+              G. B. Taylor, 
+              M. Tornikoski, 
+              H. K. Vedantham, 
+              M. Werner, 
+              P. N. Wilkinson, 
+              J. A. Zensus
+              <br>
+              <em>The Astrophysical Journal</em>, 2021
+              <br>
+              <p></p>
+              <p>What is going on with this blazar?</p>
+              <p>FPKS 1413+135 is one of the most peculiar blazars known. 
+                Its strange properties led to the hypothesis almost four decades ago that it is gravitationally lensed by a mass concentration associated with an intervening galaxy. 
+                It exhibits symmetric achromatic variability, a rare form of variability that has been attributed to gravitational milli-lensing. 
+                It has been classified as a BL Lac object, and is one of the rare objects in this class with a visible counterjet. 
+                BL Lac objects have jet axes aligned close to the line of sight. It has also been classified as a compact symmetric object—objects that have jet axes not aligned close to the line of sight. 
+                Intensive efforts to understand this blazar have hitherto failed to resolve even the questions of the orientation of the relativistic jet and the host galaxy. 
+                Answering these two questions is important because they challenge our understanding of jets in active galactic nuclei and the classification schemes we use to describe them. 
+                We show that the jet axis is aligned close to the line of sight and PKS 1413+135 is almost certainly not located in the apparent host galaxy, 
+                but is a background object in the redshift range 0.247 < z < 0.5. The intervening spiral galaxy at z = 0.247 provides a natural host for the putative lens responsible for 
+                symmetric achromatic variability and is shown to be a Seyfert 2 galaxy. We also show that, as for the radio emission, a "multizone" model is needed to account for the high-energy emission. </p>
+            </td>
+          </tr>
+
+          <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
+            <td width="25%">
+              <div class="one">
                 <div class="two" id='track_image'><img src='images/Tracks.png' width="180" height="180"></div>
                 <img src='images/Tracks.png' width="180" height="180">
               </div>
@@ -467,10 +576,10 @@
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           <tr>
             <td width="100%" valign="middle">
-              <heading>Side Projects</heading>
+              <heading>Additonal Projects</heading>
               <p>
                 I'm indebted to <a href="https://dylanfreedman.com/">Dylan Freedman</a> for introducing me to the very American
-                concept of a side project -- as such many of my projects are collaborations with him. For fun and more...<!--Representative papers are <span class="highlight">highlighted</span>.-->
+                concept of a side project -- as such many of my projects are collaborations with him. For fun and more...
               </p>
             </td>
           </tr>
