@@ -286,8 +286,8 @@
               <heading>Code Platforms</heading>
               <p>
                   <ul style="line-height:1.7;">
-                    <li><b>SSCpol:</b><em> Polarized relatistic jet simulation in C with Python wrapper.</em><br>
-                      [<a href="https://github.com/alpv95/SSCpol"></a>][<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab46b1">Paper</a>]</li>
+                    <li><b>SSCpol:</b><em> Polarized relativistic jet simulation in C with Python wrapper.</em><br>
+                      [<a href="https://github.com/alpv95/SSCpol">Code</a>][<a href="https://iopscience.iop.org/article/10.3847/1538-4357/ab46b1">Paper</a>]</li>
                     <li><b>Dank Learning:</b><em> 'Show and Tell' image captioning for meme generation.</em><br>
                       [<a href="https://github.com/alpv95/MemeProject">Code</a>][<a href="https://arxiv.org/abs/1806.04510">Paper</a>][<a href="https://arxiv.org/abs/1806.04510">Webpage</a>]</li>
                   </ul>
@@ -315,16 +315,16 @@
           <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
             <td width="25%">
               <div class="one">
-                <div class="two" id='aperture_image'><img src='images/chocolatemilk.jpg'></div>
+                <div class="two" id='aperture_image2'><img src='images/chocolatemilk.jpg'></div>
                 <img src='images/oileagle.png'>
               </div>
               <script type="text/javascript">
                 function aperture_start() {
-                  document.getElementById('aperture_image').style.opacity = "1";
+                  document.getElementById('aperture_image2').style.opacity = "1";
                 }
 
                 function aperture_stop() {
-                  document.getElementById('aperture_image').style.opacity = "0";
+                  document.getElementById('aperture_image2').style.opacity = "0";
                 }
                 aperture_stop()
               </script>
@@ -708,8 +708,7 @@
               <br>
               [<a href="https://arxiv.org/abs/1806.04510">PDF</a>][<a href="https://github.com/alpv95/MemeProject">Code</a>][<a href="https://arxiv.org/abs/1806.04510">Webpage</a>]
               <p></p>
-              <p>An image captioning system that can take any image and turn it into a first generation meme.</p>
-              <p>Uses pre trained Inception CNN followed by an LSTM with temperature selection for language generation. 
+              <p>An image captioning system that can take any image and turn it into a first generation meme. Uses pre trained Inception CNN followed by an LSTM with temperature selection for language generation. 
                 Trained on a dataset of over 300,000 image caption pairs I scraped from <code>memegenerator.net</code>.</p>
               <p>What started as a fun class project ended up being featured on 
                 <a href="https://techcrunch.com/2018/06/15/dank-learning-system-autogenerates-memes/">Techcrunch</a> and 
