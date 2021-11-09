@@ -312,21 +312,21 @@
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-          <tr onmouseout="portrait_stop1()" onmouseover="portrait_start1()">
+          <tr onmouseout="portrait_stop()" onmouseover="portrait_start()">
             <td width="25%">
               <div class="one">
                 <div class="two" id='aperture_image2'><img src='images/chocolatemilk.jpg'></div>
                 <img src='images/oileagle.png'>
               </div>
               <script type="text/javascript">
-                function portrait_start1() {
+                function portrait_start() {
                   document.getElementById('aperture_image2').style.opacity = "1";
                 }
 
-                function portrait_stop1() {
+                function portrait_stop() {
                   document.getElementById('aperture_image2').style.opacity = "0";
                 }
-                aperture_stop()
+                portrait_stop()
               </script>
             </td>
             <td valign="top" width="75%">
