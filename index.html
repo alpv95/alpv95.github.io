@@ -382,8 +382,8 @@
               <br>
               (under review)
               <p></p>
-              <p>We fit a complex binary lens magnification model to multiwavelength blazar lightcurves using Bayesian nested sampling. 
-                I solve quadratic programs at each nested sampling step for the physcially constrained linear parameters.  
+              <p>We fit a complex binary lens magnification model to multiwavelength blazar lightcurves using Bayesian nested sampling (MultiNest).
+                To speed up the algorithm, I used convex optimization to marginalize over the (constrained) linear parameters in real time, reducing the number of free parameters to be sampled. 
                 Our empirical results tentatively suggest that the blazar could be lensed. </p>
               <p></p>
             </td>
