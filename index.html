@@ -487,7 +487,7 @@
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-          <tr onmouseout="portrait27_stop()" onmouseover="portrait27_start()" bgcolor="#ffffd0">
+          <tr onmouseout="portrait27_stop()" onmouseover="portrait27_start()">
             <td width="25%">
               <div class="one">
                 <div class="two" id='milk'><img src='images/dalle_milky.PNG' width="180" height="180"></div>
@@ -495,16 +495,16 @@
               </div>
               <script type="text/javascript">
                 function portrait27_start() {
-                  document.get                    k').style.opacity = "1";
+                  document.getElementById('milk').style.opacity = "1";
                 }
 
                 function portrait27_stop() {
-                              .getE                    ').style.opacity = "0";
+                  document.getElementById('milk').style.opacity = "0";
                 }
                 portrait27_stop()
               </script>
             </td>
-            <td valign="top" width="75%">
+            <td valign="top" width="75%" bgcolor="#ffffd0">
               <papertitle>Polarized Blazar X-rays imply particle acceleration in shocks</papertitle>
               <br>
               I. Liodakis et al. (IXPE collaboration, incl. <strong>A.L. Peirson</strong>)
