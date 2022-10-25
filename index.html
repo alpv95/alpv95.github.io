@@ -498,6 +498,38 @@
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
+          <tr onmouseout="portrait29_stop()" onmouseover="portrait29_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='mnist'><img src='images/mnist.PNG' width="180" height="180"></div>
+                <img src='images/tanh.PNG' width="180" height="180">
+              </div>
+              <script type="text/javascript">
+                function portrait29_start() {
+                  document.getElementById('mnist').style.opacity = "1";
+                }
+
+                function portrait29_stop() {
+                  document.getElementById('mnist').style.opacity = "0";
+                }
+                portrait29_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <papertitle>Fishy: Layerwise Fisher Approximation for Higher-order Neural Network Optimization</papertitle>
+              <br>
+              <strong>A.L. Peirson</strong> Ehsan Amid, Yatong Chen, Vladimir Feinberg, Manfred K Warmuth, Rohan Anil
+              <br>
+              <em>Neurips HITY workshop</em>, 2022.
+              <br>
+              [<a href=https://openreview.net/pdf?id=cScb-RrBQC>PDF</a>]
+              <p></p>
+              <p>A local approximation of the Fisher information matrix at each layer for natural gradient descent training of deep neural networks.  <br>
+                Very cool initial work taking advantage of layerwise matching loss functions.</p>
+              <p></p>
+            </td>
+          </tr>
+
           <tr onmouseout="portrait28_stop()" onmouseover="portrait28_start()">
             <td width="25%">
               <div class="one">
@@ -522,7 +554,7 @@
               Laura Di Gesu et al. (<font color="red"><strong>IXPE collaboration</strong></font>, incl. <strong>A.L.
                 Peirson</strong>)
               <br>
-              <em>ApJ Letters</em>, 2022, accepted.
+              <em>ApJ Letters</em>, 2022.
               <br>
               [<a href=https://arxiv.org/abs/2209.07184>PDF</a>]
               <p></p>
@@ -555,7 +587,7 @@
               <br>
               I. Liodakis et al. (<font color="red"><strong>IXPE collaboration</strong></font>, incl. <strong>A.L. Peirson</strong>)
               <br>
-              <em>Nature</em>, 2022, accepted.
+              <em>Nature</em>, 2022.
               <br>
                 [<a href=https://arxiv.org/abs/2209.06227>PDF</a>]
               <p></p>
@@ -588,7 +620,7 @@
               H. Krawczynski, et al. (<font color="red"><strong>IXPE collaboration</strong></font>, incl.
               <strong>A.L.Peirson</strong>)
               <br>
-              <em>Science</em>, 2022, submitted.
+              <em>Science</em>, 2022.
               <br>
               [<a href=https://arxiv.org/abs/2206.09972>PDF</a>]
               <p></p>
