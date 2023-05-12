@@ -1,8 +1,5 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-
-
-  <head>
+<head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZY9VJRT7FL"></script>
     <script>
@@ -96,50 +93,4 @@
     <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   </head>
-
-
-
-
-<body>
-  <table width="800" border="0" align="center" cellspacing="0" cellpadding="0">
-    <tr>
-      <td>
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td width="45%" valign="middle">
-              <p align="center">
-                <name><b>Abel Lawrence Peirson</b></name> <br>
-                alpv95 at stanford dot edu <br>
-                [<a href="..">Main</a> | <a href="/blog/">Blog</a>] <br>
-              </p>
-            </td>
-            <td width="33%">
-            </td>
-          </tr>
-        </table>
-
-
-        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-          <tr>
-            <td width="100%" valign="middle">
-              <heading>Blog</heading>
-              <p><i>Just trying to beat </i> $u''(x) < 0$
-              </p>
-              <hr>
-
-              <p>
-              <ul class="post-list">
-                <li>05/12/23 <a href="/blog/entropy/"> Entropy from Stirling's Approximation </a></li>
-                <li>03/20/23 <a href="/blog/time-age/"> Why do we experience time as going by faster as we age? </a></li>
-              </ul>
-              </p>
-            </td>
-          </tr>
-        </table>
-
-      </td>
-    </tr>
-  </table>
-</body>
-
 </html>
