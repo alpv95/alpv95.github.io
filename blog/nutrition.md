@@ -95,7 +95,7 @@ Total calories:  871.1281429945614 kcal
 Total weight:  1113.0965300000835 g
 
 Weight (100g)     Name
-
+---
 4.412183          Cauliflower, raw, green
 1.453970          Watercress, raw
 0.787405          Bamboo shoots, without salt, drained, boiled, cooked
@@ -114,31 +114,11 @@ Weight (100g)     Name
 0.023411          Mushrooms, raw, exposed to ultraviolet light, or crimini, italian, brown
 0.002834          Desserts, unsweetened, tablets, rennin
 
-                                                    0         1
-6                             Cauliflower, raw, green  4.412183
-3                                     Watercress, raw  1.453970
-10  Bamboo shoots, without salt, drained, boiled, ...  0.787405
-4                                      Chicken spread  0.657726
-9   Cocoa, processed with alkali, unsweetened, dry...  0.588269
-5                       Fish, raw, mixed species, roe  0.569966
-12  Mushrooms, grilled, exposed to ultraviolet lig...  0.518734
-15  Tofu, prepared with calcium sulfate, salted an...  0.516959
-14  Cabbage, without salt, drained, boiled, cooked...  0.506891
-13  Cereals ready-to-eat, FIBER ONE Bran Cereal, G...  0.361921
-11  Gelatin desserts, with aspartame, reduced calo...  0.292224
-0                               Oil, soybean lecithin  0.147996
-8                Vitasoy USA Nasoya, Lite Silken Tofu  0.146714
-1                                Yeast extract spread  0.095675
-2                                     Oil, wheat germ  0.048087
-16  Mushrooms, raw, exposed to ultraviolet light, ...  0.023411
-7              Desserts, unsweetened, tablets, rennin  0.002834
-
 ### Superfoods
-For the 
-Count of how many times food appear in optimal diets.
+Count of how many times foods appear in optimal diets.
 ![food bar](../images/barplot.png)
 
-Radar plot for superfooods.
+![radar plot](../images/radar.png)
 
 ## Potatoes and Milk
 
@@ -148,18 +128,3 @@ To return to the original inspiration for this article, can a diet of solely pot
 [^1]: Amino acid nutritional requirements are often filled by dense complete protein sources like soy in both cases. 
 [^2]: Particularly since digestive efficiency is very poorly understood, and varies widely between individuals. You could eat the 'optimal' nutritional diet on paper but only digest 70% of it, making it a suboptimal diet for you.
 [^3]: "The Man from the Future: The Visionary Life of John von Neumann" Ananyo Bhattacharya 2021
-
-
-
-
-
-<h1>Convex Nutrition Optimization</h1>
-<p>Nutrition optimization (which foods are robust to the constraint changes?)</p>
-<ul>
-<li>This was the LP problem X approached John von Neumann with at RAND!</li>
-<li>Radar plots for individual food nutrition profiles</li>
-<li>stacked histogram for breakdown of which foods make up proportions of which nutrients</li>
-</ul>
-<p>$ x = \int_{0}^{1} x(t) dt $</p>
-<pre><code>f(x) = \int_{0}^{1} x(t) dt
-</code></pre>
