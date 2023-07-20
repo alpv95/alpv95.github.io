@@ -139,7 +139,7 @@
             <td width="67%" valign="middle">
               <p align="center">
                 <name><b>Abel Lawrence Peirson</b></name> <br>
-                alpv95 at stanford dot edu <br>
+                alpv95 at alumni dot stanford dot edu <br>
                 [<a href="#news">News</a> | <a href="#xp">Xp</a> | <a href="#research">Research</a> | <a href="#projects">Projects</a> |
                 <a
                   href="#misc">Misc.</a> | <a href="blog/">Blog</a>] <br>
@@ -151,8 +151,9 @@
                   href="https://www.gradpost.ucsb.edu/money/money-article/2020/01/10/future-investigators-in-nasa-earth-and-space-science-and-technology-finesst-research-grants">NASA
                   FINESST</a> fellow and <a
                   href="https://datascience.stanford.edu/programs/scholars/program-details">Stanford data science
-                  scholar</a>.
-                <!-- I am also interested in theoretical neuroscience, geophysical fluid dynamics, accelerator physics and plasma physics.-->
+                  scholar</a>. In September 2023, I will be joining <a
+                    href="https://www.citadel.com/what-we-do/global-quantitative-strategies/">Citadel GQS</a> in Miami as a quantitative
+                  researcher.
               </p>
               <p>
                 <em>I am interested in scientific applications of machine learning and statistics that incorporate
@@ -179,7 +180,7 @@
                     style="font-size:50px;color:0072b1;"></i></a> &nbsp &nbsp &nbsp
                 <a href="https://github.com/alpv95"><i class="fa fa-github" style="font-size:50px;color:black;"></i></a>
                 &nbsp &nbsp &nbsp
-                <a href="https://scholar.google.com/citations?user=tPRMZscAAAAJ&hl=en&authuser=1"><i
+                <a href="https://scholar.google.com/citations?user=MxcIoQYAAAAJ&hl=en&oi=ao"><i
                     class="ai ai-google-scholar-square" style="font-size:50px;"></i></a> &nbsp &nbsp &nbsp
                 <a href="https://twitter.com/alpv95"><i class="fa fa-twitter"
                     style="font-size:50px;color:#1DA1F2"></i></a> &nbsp &nbsp &nbsp
@@ -441,7 +442,8 @@
               <ul style="line-height:1.7;">
                 <li><b>MLCommons Algorithmic Efficiency:</b><em> Benchmark and competition for neural network training.</em><br>
                   [<a href="https://github.com/mlcommons/algorithmic-efficiency">Code</a>][<a
-                    href="https://mlcommons.org/en/groups/research-algorithms/">Docs</a>][Paper: coming soon]</li>
+                    href="https://mlcommons.org/en/groups/research-algorithms/">Docs</a>][<a
+                    href="https://arxiv.org/abs/2306.07179">Paper</a>]</li>
                 <li><b>ixpeobssim:</b><em> Simulation and analysis framework for the Imaging X-ray Polarimetry Explorer.</em><br>
                       [<a href="https://github.com/lucabaldini/ixpeobssim">Code</a>][<a
                         href="https://ixpeobssim.readthedocs.io/en/latest/index.html">Docs</a>]</li>
@@ -481,21 +483,88 @@
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
 
-          <tr onmouseout="portrait29_stop()" onmouseover="portrait29_start()">
+          <tr onmouseout="portrait31_stop()" onmouseover="portrait31_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='mnist'><img src='images/step_plot.JPG' width="180" height="180"></div>
+                <img src='images/step2_plot.JPG' width="180" height="180">
+              </div>
+              <script type="text/javascript">
+                function portrait31_start() {
+                  document.getElementById('mnist').style.opacity = "1";
+                }
+
+                function portrait31_stop() {
+                  document.getElementById('mnist').style.opacity = "0";
+                }
+                portrait31_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%">
+              <papertitle>Benchmarking Neural Network Training Algorithms</papertitle>
+              <br>
+              George E Dahl, Frank Schneider, Zachary Nado, et al. (incl. <strong>A.L. Peirson</strong>)
+              <br>
+              <em>Arxiv</em>, 2023.
+              <br>
+              [<a href=https://arxiv.org/abs/2306.07179>PDF</a>][<a
+                href="https://github.com/mlcommons/algorithmic-efficiency">Code</a>]
+              <p></p>
+              <p>First large scale benchmark for neural network optimization algorithms. <br>
+                Call to arms for community-wide benchmarking competition.</p>
+              <p></p>
+            </td>
+          </tr>
+          
+          <tr onmouseout="portrait30_stop()" onmouseover="portrait30_start()">
+            <td width="25%">
+              <div class="one">
+                <div class="two" id='mnist'><img src='images/half_pol.JPG' width="180" height="180"></div>
+                <img src='images/PL_bllac.JPG' width="180" height="180">
+              </div>
+              <script type="text/javascript">
+                function portrait30_start() {
+                  document.getElementById('mnist').style.opacity = "1";
+                }
+
+                function portrait30_stop() {
+                  document.getElementById('mnist').style.opacity = "0";
+                }
+                portrait30_stop()
+              </script>
+            </td>
+            <td valign="top" width="75%" bgcolor="#ffffd0">
+              <papertitle>X-Ray Polarization of BL Lacertae in Outburst</papertitle>
+              <br>
+              <strong>A.L. Peirson</strong>, Michela Negro, Ioannis Liodakis, et al. (<font color="red"><strong>IXPE
+                  collaboration</strong></font>)
+              <br>
+              <em>ApJ Letters</em>, 2023.
+              <br>
+              [<a href=https://openreview.net/pdf?id=cScb-RrBQC>PDF</a>]
+              <p></p>
+              <p>First measurement of X-ray polarization in blazar BL Lacertae. <br>
+                Measuring polarization in the transition region between synchrotron and inverse Compton emission allows for
+                testing different jet composition hypotheses. </p>
+              <p></p>
+            </td>
+          </tr>
+          
+          <tr onmouseout="portrait31_stop()" onmouseover="portrait31_start()">
             <td width="25%">
               <div class="one">
                 <div class="two" id='mnist'><img src='images/mnist.PNG' width="180" height="180"></div>
                 <img src='images/tanh.PNG' width="180" height="180">
               </div>
               <script type="text/javascript">
-                function portrait29_start() {
+                      function portrait31_start() {
                   document.getElementById('mnist').style.opacity = "1";
                 }
 
-                function portrait29_stop() {
+                      function portrait31_stop() {
                   document.getElementById('mnist').style.opacity = "0";
                 }
-                portrait29_stop()
+                      portrait31_stop()
               </script>
             </td>
             <td valign="top" width="75%" bgcolor="#ffffd0">
